@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+@import "mysite.css";
+
+#guestbook			{ margin:20px auto;	width:540px; }
+
+/* #guestbook form, 
+#guestbook table	{ width:100%; border-collapse: collapse; 
+} */
+
+#guestbook table{
+	width:100%;
+	border: 1.5px solid #555;
+	border-collapse: collapse;
+}
+
+#guestbook table,	
+#guestbook table td, #board table th {
+	border:1px solid #aaa;
+	padding:5px;
+}
+
+#guestbook table th{
+	text-align: center;
+	background-color: #717171;
+	color: #fff;
+	padding: 10px 15px;
+}
+#guestbook .guestlistTable{
+	margin:5px 0;
+}
+#guestbook .guestlistTable .delete{
+	width:20px;
+}
+#guestbook .guestlistTable th{
+	text-align: center;
+	background-color: #717171;
+	color: #fff;
+	padding:1px;
+}
+#guestbook .guestlistTable .message{
+	padding:15px 15px;	
+}
+#guestbook input[type=text], #guestbook input[type=password]{
+	width:188px;
+	border: 1px solid #fff;
+}
+#guestbook textarea{
+	border: 1px solid #fff;
+	width:100%;
+}
+#guestbook #insertBtnDiv{
+	
+	text-align:center;
+}
+#guestbook .btn{
+	margin:15px;
+	padding: 5px 10px;
+	font-family: 맑은 고딕;
+	
+}
+#guestbook input{
+	font-family: 맑은 고딕;	
+}
+#guestbook #checkDiv{	
+	text-align:center;
+}
+#guestbook #checkTable{
+	width:300px;
+	margin: auto;
+}
+#guestbook #msg{
+	color:red;
+	font-weight: bold;
+}
+#guestbook ul		{ width:100%; margin-top:20px }
+#guestbook ul li	{ width:100%; margin-top:10px }
+
+
+#guestbook.delete-form	{ height:200px }
+#guestbook.delete-form form {
+	width:300px;
+	padding:10px;
+	margin:50px auto;
+}
+#guestbook.delete-form a	{ display:block; margin:20px auto; width:110px }
+
+#guestbook.delete-message p	{ padding:100px; height:50px; text-align:center }
+
+#guestbook textarea#content	{ width: 100%; border:none; height: 100px; resize: none; outline: none; }
